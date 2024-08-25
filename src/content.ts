@@ -6,7 +6,6 @@ function isNightTime(): boolean {
 
 function applyNightMode(): void {
   if (isNightTime()) {
-    console.log("Night mode enabled");
     document.body.classList.add('night-mode');
   } else {
     document.body.classList.remove('night-mode');
