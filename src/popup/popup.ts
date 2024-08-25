@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // 根据状态更新页面显示内容
   function updateStatus(isEnabled: boolean) {
     statusElement.textContent = isEnabled ? "ON" : "OFF";
-    if (isEnabled) {
-      document.body.classList.add("night-mode");
-    } else {
-      document.body.classList.remove("night-mode");
-    }
   }
 
   // 更新状态文本
