@@ -1,7 +1,6 @@
 function isNightTime(): boolean {
   const hours = new Date().getHours();
-  // return hours >= 19 || hours <= 7;
-  return hours <= 19;
+  return hours >= 19 || hours <= 7;
 }
 
 function applyNightMode(): void {
