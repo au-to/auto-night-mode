@@ -1,0 +1,18 @@
+{
+  "name": "auto-night-mode",
+  "version": "1.0.0",
+  "description": "Automatic night mode chrome plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.270",
+    "typescript": "^5.5.4"
+  }
+}
